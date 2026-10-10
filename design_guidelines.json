@@ -1,0 +1,39 @@
+{
+  "project_name": "Prakash Herbal - Bulk Herbs, Spices & Superfoods B2B E-Commerce",
+  "app_type": "hybrid_fullstack",
+  "theme": "organic_earthy",
+  "color_palette": {
+    "primary": "#1E4D2B",
+    "primary_hover": "#14371E",
+    "secondary": "#D4A373",
+    "accent": "#588157",
+    "background": "#F4F1DE",
+    "card_bg": "#FFFFFF",
+    "text_dark": "#283618",
+    "text_muted": "#606C38",
+    "border": "#CCD5AE"
+  },
+  "typography": {
+    "heading_font": "Playfair Display, serif",
+    "body_font": "Plus Jakarta Sans, sans-serif",
+    "mono_font": "JetBrains Mono, monospace"
+  },
+  "image_urls": {
+    "hero_bg": "https://images.unsplash.com/photo-1613392672573-5f3d077eb782?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "turmeric_powder": "https://images.unsplash.com/photo-1606951444141-e5533feb55be?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "spices_display": "https://images.unsplash.com/photo-1606914469725-e398d2f1d7ee?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "botanical_leaf": "https://images.unsplash.com/photo-1606951443958-5563274417a7?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "sections": [
+    "Navbar with Amazon-style Category Quick Dropdown & WhatsApp Direct CTA",
+    "Hero Banner with Trust Badges (Est. 2012, Sojat City Rajasthan, GSTIN Verified, Min Order 25kg)",
+    "Category Selector Grid & Search Bar (Herbal Powders, Herbal Tea/TBC Cut, Spices Powders, Flowers & Seeds, Superfoods)",
+    "Product Catalogue with Amazon-style Quick Enquiry & Quantity Selector",
+    "WhatsApp Bulk Order / Inquiry Generator Modal (Select Product, Qty in kg/tons, Name, Phone, Delivery Address -> Generates WhatsApp API Link +8005987791)",
+    "Company About Us Story (Sojat City, Pali District, Manufacturer & Exporter)",
+    "Direct Inquiry Form & Contact Info (Phone: +91 81074 37791, WhatsApp: +91 80059 87791, Email: Prakashherbalsojat@gmail.com, Address: NH-162, Sardarpura, Sojat City, Pali, Rajasthan 306104)",
+    "Privacy Policy & Terms modal/section"
+  ],
+  "whatsapp_number": "+91 80059 87791",
+  "contact_phone": "+91 81074 37791"
+}
