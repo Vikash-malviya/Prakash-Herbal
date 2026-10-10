@@ -20,6 +20,7 @@ Create a responsive B2B bulk-selling website for "Prakash Herbal" (herbs, spices
 - July 2026: Initial React SPA catalogue, category filters, search, WhatsApp enquiry redirect, About/story, Contact and Privacy sections.
 - July 2026: Text-first compact product cards, product detail side panel, Google Maps embed, white bold header, GST in top bar.
 - July 2026: Replaced hero tree photo with herbal powder/spices image; updated all five collection category images; removed minimum-order line from top bar; locked/sticky header; rounded category cards; made WhatsApp number +91 80059 87791 visible in the top bar and Contact section; set the Contact map to coordinates 25.94225, 73.721528 (25°56'32.1"N 73°43'17.5"E).
+- July 2026: Confirmed the frontend makes no API/database calls, cleaned the static HTML shell, set relative build paths (`homepage: "."`), generated the production build at `/app/frontend/build`, and verified the static build served over plain HTTP with category filters, images, mobile layout and WhatsApp enquiry URL generation.
 
 ## Architecture notes
 - Frontend-only React SPA; product data is a static in-file catalogue in `frontend/src/App.js`.
