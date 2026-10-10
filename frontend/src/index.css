@@ -91,6 +91,10 @@ code {
 .whatsapp-fallback { margin-top: 14px; border: 1px solid var(--line); background: #f8f7ed; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
 .whatsapp-fallback p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
 .copy-enquiry { border: 0; cursor: pointer; padding: 12px 16px; font-size: 12px; }
+.email-fallback-btn { width: 100%; background: transparent; border: 1px solid var(--forest); color: var(--forest); margin-top: 10px; font-size: 13px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 14px 22px; cursor: pointer; }
+.email-fallback-btn:hover { background: #eef0df; }
+.catalogue-download { display: block; margin: 18px auto 0; background: transparent; border: 1px solid var(--sand); color: var(--forest); padding: 11px 18px; font: 11px 'DM Mono', monospace; cursor: pointer; }
+.catalogue-download:hover { background: var(--forest); color: #fff; border-color: var(--forest); }
 @media (max-width: 620px) {
   .product-card { min-height: 174px !important; }
   .product-info { padding-top: 54px !important; }
