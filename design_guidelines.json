@@ -13,27 +13,69 @@
     "text_muted": "#606C38",
     "border": "#CCD5AE"
   },
+  "colors": {
+    "primary": "#1E4D2B",
+    "primary_hover": "#14371E",
+    "secondary": "#D4A373",
+    "accent": "#588157",
+    "background": "#F4F1DE",
+    "card_bg": "#FFFFFF",
+    "text_dark": "#283618",
+    "text_muted": "#606C38",
+    "border": "#CCD5AE"
+  },
   "typography": {
     "heading_font": "Playfair Display, serif",
     "body_font": "Plus Jakarta Sans, sans-serif",
     "mono_font": "JetBrains Mono, monospace"
   },
   "image_urls": {
-    "hero_bg": "https://images.unsplash.com/photo-1613392672573-5f3d077eb782?crop=entropy&cs=srgb&fm=jpg&q=85",
-    "turmeric_powder": "https://images.unsplash.com/photo-1606951444141-e5533feb55be?crop=entropy&cs=srgb&fm=jpg&q=85",
-    "spices_display": "https://images.unsplash.com/photo-1606914469725-e398d2f1d7ee?crop=entropy&cs=srgb&fm=jpg&q=85",
-    "botanical_leaf": "https://images.unsplash.com/photo-1606951443958-5563274417a7?crop=entropy&cs=srgb&fm=jpg&q=85"
+    "hero_main": "https://images.unsplash.com/photo-1716816211590-c15a328a5ff0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwxfHxoZXJiYWwlMjBwb3dkZXIlMjBzcGljZXN8ZW58MHx8fHwxNzkxNjM1NjMwfDA&ixlib=rb-4.1.0&q=85",
+    "cat_herbal_powders": "https://images.unsplash.com/photo-1633509817627-5a29634475af?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwyfHxoZXJiYWwlMjBwb3dkZXJ8ZW58MHx8fHwxNzkxNjM1NjMwfDA&ixlib=rb-4.1.0&q=85",
+    "cat_herbal_tea": "https://images.unsplash.com/photo-1567922045116-2a00fae2ed03?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwyfHxoZXJiYWwlMjB0ZWF8ZW58MHx8fHwxNzkxNjM1NjMwfDA&ixlib=rb-4.1.0&q=85",
+    "cat_spices": "https://images.unsplash.com/photo-1581600140682-d4e68c8cde32?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwyfHxzcGljZXN8ZW58MHx8fHwxNzkxNjM1NjMwfDA&ixlib=rb-4.1.0&q=85",
+    "cat_flowers_seeds": "https://images.unsplash.com/photo-1505129013025-ecf8f0168373?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwxfHxzZWVkcyUyMGZsb3dlcnN8ZW58MHx8fHwxNzkxNjM1NjMwfDA&ixlib=rb-4.1.0&q=85",
+    "cat_superfoods": "https://images.unsplash.com/photo-1542990253-a781e04c0082?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxzdXBlcmZvb2RzfGVufDB8fHx8MTc5MTYzNTYzMHww&ixlib=rb-4.1.0&q=85"
   },
   "sections": [
-    "Navbar with Amazon-style Category Quick Dropdown & WhatsApp Direct CTA",
-    "Hero Banner with Trust Badges (Est. 2012, Sojat City Rajasthan, GSTIN Verified, Min Order 25kg)",
-    "Category Selector Grid & Search Bar (Herbal Powders, Herbal Tea/TBC Cut, Spices Powders, Flowers & Seeds, Superfoods)",
+    "Sticky/Locked Navbar with Amazon-style Category Quick Dropdown & WhatsApp Direct CTA (Removed minimum order line from top bar)",
+    "Hero Banner with Trust Badges (Est. 2012, Sojat City Rajasthan, GSTIN Verified) and Hero Image of Spices/Herbal Powders",
+    "Our Collection (Herbal Powders, Herbal Tea, Spices & Blends, Flowers & Seeds, Superfoods)",
     "Product Catalogue with Amazon-style Quick Enquiry & Quantity Selector",
     "WhatsApp Bulk Order / Inquiry Generator Modal (Select Product, Qty in kg/tons, Name, Phone, Delivery Address -> Generates WhatsApp API Link +8005987791)",
     "Company About Us Story (Sojat City, Pali District, Manufacturer & Exporter)",
     "Direct Inquiry Form & Contact Info (Phone: +91 81074 37791, WhatsApp: +91 80059 87791, Email: Prakashherbalsojat@gmail.com, Address: NH-162, Sardarpura, Sojat City, Pali, Rajasthan 306104)",
     "Privacy Policy & Terms modal/section"
   ],
+  "visual_enhancers": {
+    "surface_strategy": "Solid earthy backgrounds with subtle borders to maintain a premium B2B organic look. Avoid cold glassmorphism. NEVER use transparent backgrounds on headers that overlap content.",
+    "decorations": "Use organic grain textures and large typography for high-end feel."
+  },
+  "grids": "Use 12-column bento layouts for collection features. Tight gaps for product catalogue to optimize for dense information like Amazon.",
+  "layouts": "Mobile-first responsive grids. Generous padding (`p-8`, `p-12`) in marketing sections, tighter padding in product tables. The header must have `fixed z-50` and the content should have `pt-[header-height]`.",
+  "motion": "Subtle hover states on cards, staggered fade-ins for product lists.",
+  "accessibility": "High contrast text over imagery. All interactable elements must have aria-labels.",
+  "media": "Images should have `object-cover`. Limit max-height on mobile to 80vh for banners.",
+  "3d_libraries": "Not strictly required for this B2B catalog, rely on high-quality 2D imagery instead.",
+  "component_name": "shadcn/ui primitives to be used for complex components (Dialog, Select). Standard HTML/Tailwind for cards and headers.",
+  "instructions_to_main_agent": [
+    "Implement a locked/sticky header (Navbar) at the top without the 'minimum order' line.",
+    "Use the specific images provided in image_urls for the Hero section and 5 specific category cards.",
+    "Maintain the earthy luxury theme with high-contrast text and solid green/tan accents.",
+    "Include a WhatsApp ordering flow integration with prefilled messages.",
+    "Share the guideline for .js files not for .tsx files"
+  ],
   "whatsapp_number": "+91 80059 87791",
-  "contact_phone": "+91 81074 37791"
+  "contact_phone": "+91 81074 37791",
+  "GENERAL UI UX DESIGN GUIDELINES": [
+    "All interactive and key informational elements MUST include a `data-testid` attribute to facilitate robust automated testing."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Do not apply generic centered layouts; prioritize natural reading flow.",
+    "Do not use dark colors as gradients.",
+    "Do not use universal transitions (e.g., transition: all).",
+    "Create depth through layered design elements and subtle shadows.",
+    "Ensure all interactive elements have data-testid attributes for testing.",
+    "NEVER use placeholder images; rely strictly on the provided image_urls."
+  ]
 }

@@ -74,7 +74,7 @@ code {
 .nav-wrap { background: #fff !important; }
 .nav-links { font-weight: 700; }
 .product-card { cursor: pointer; }
-.detail-backdrop { position: fixed; inset: 0; z-index: 20; display: flex; justify-content: flex-end; background: rgba(20,55,30,.42); }
+.detail-backdrop { position: fixed; inset: 0; z-index: 60; display: flex; justify-content: flex-end; background: rgba(20,55,30,.42); }
 .product-detail { width: min(480px, 100%); min-height: 100%; background: #fff; padding: 52px 42px 40px; position: relative; box-shadow: -15px 0 50px rgba(20,55,30,.18); animation: detail-in .28s ease-out; }
 .detail-close { position: absolute; top: 18px; right: 18px; border: 0; background: #eef0df; color: var(--forest); border-radius: 50%; width: 36px; height: 36px; display: grid; place-items: center; cursor: pointer; }
 .detail-icon { width: 68px; height: 68px; border-radius: 50%; display: grid; place-items: center; margin-bottom: 30px; color: var(--forest); background: #e4e9d6; }
