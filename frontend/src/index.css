@@ -71,9 +71,30 @@ code {
 .product-card { min-height: 174px !important; overflow: visible !important; }
 .product-info { padding-top: 54px !important; }
 .product-card .product-image { display: none !important; }
+.nav-wrap { background: #fff !important; }
+.nav-links { font-weight: 700; }
+.product-card { cursor: pointer; }
+.detail-backdrop { position: fixed; inset: 0; z-index: 20; display: flex; justify-content: flex-end; background: rgba(20,55,30,.42); }
+.product-detail { width: min(480px, 100%); min-height: 100%; background: #fff; padding: 52px 42px 40px; position: relative; box-shadow: -15px 0 50px rgba(20,55,30,.18); animation: detail-in .28s ease-out; }
+.detail-close { position: absolute; top: 18px; right: 18px; border: 0; background: #eef0df; color: var(--forest); border-radius: 50%; width: 36px; height: 36px; display: grid; place-items: center; cursor: pointer; }
+.detail-icon { width: 68px; height: 68px; border-radius: 50%; display: grid; place-items: center; margin-bottom: 30px; color: var(--forest); background: #e4e9d6; }
+.product-detail h2 { font-size: 45px; margin: 14px 0; }
+.detail-intro { color: var(--muted); font-size: 15px; line-height: 1.75; }
+.product-detail h3 { font: 600 17px 'DM Sans', sans-serif; margin: 30px 0 12px; }
+.product-detail ul { margin: 0; padding-left: 20px; color: var(--muted); font-size: 14px; line-height: 1.9; }
+.detail-forms { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 17px 0; margin: 29px 0; display: flex; justify-content: space-between; gap: 15px; font-size: 12px; }
+.detail-forms span { color: var(--muted); }.detail-forms b { color: var(--forest); text-align: right; }
+.map-card { width: 100%; height: 220px; margin-top: 30px; border: 8px solid #eef0df; }.map-card iframe { width: 100%; height: 100%; border: 0; }
+.privacy-section { padding: 105px 10.5%; background: #f8f7ed; display: grid; grid-template-columns: 32% 1fr; gap: 9%; }.privacy-section h2 { font-size: 45px; }.privacy-copy { color: var(--muted); font-size: 14px; line-height: 1.8; max-width: 780px; }.privacy-copy ul { padding-left: 22px; margin: 25px 0; }.privacy-copy li { padding: 4px 0 4px 5px; }.privacy-copy li::marker { color: var(--sand); }
+@keyframes detail-in { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: translateX(0); } }
 @media (max-width: 620px) {
   .product-card { min-height: 174px !important; }
   .product-info { padding-top: 54px !important; }
+  .product-detail { padding: 50px 24px 30px; }
+  .product-detail h2 { font-size: 38px; }
+  .privacy-section { padding: 72px 7%; display: block; }
+  .privacy-section h2 { font-size: 38px; }
+  .map-card { height: 190px; }
 }
 
 @layer base {
