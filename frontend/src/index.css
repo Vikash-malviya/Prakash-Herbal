@@ -67,6 +67,15 @@ code {
     }
 }
 
+/* Text-first product cards: keep the catalogue calm and easy to scan. */
+.product-card { min-height: 174px !important; overflow: visible !important; }
+.product-info { padding-top: 54px !important; }
+.product-card .product-image { display: none !important; }
+@media (max-width: 620px) {
+  .product-card { min-height: 174px !important; }
+  .product-info { padding-top: 54px !important; }
+}
+
 @layer base {
     * {
         @apply border-border;
