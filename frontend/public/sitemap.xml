@@ -2,7 +2,7 @@
 <!-- Single-page website. Replace https://your-domain-here with your live domain once it is pointed to this hosting. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://your-domain-here/</loc>
+        <loc>https://prakashherbal.com/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
