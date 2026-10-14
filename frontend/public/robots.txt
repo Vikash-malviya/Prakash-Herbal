@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# After your domain is pointed to this hosting, add your absolute sitemap URL, for example:
-# Sitemap: https://your-domain/sitemap.xml
+Sitemap: https://prakashherbal.com/sitemap.xml
