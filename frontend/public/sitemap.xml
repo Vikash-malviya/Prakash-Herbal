@@ -2,6 +2,7 @@
 <!-- Single-page website. Replace https://your-domain-here with your live domain once it is pointed to this hosting. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <!-- Single-page website sitemap for Prakash Herbal -->
         <loc>https://prakashherbal.com/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
