@@ -47,7 +47,7 @@ function App() {
     const data = Object.fromEntries(new FormData(formEl));
     const plainMessage = `Hello Prakash Herbal, I would like to enquire about:\n\nProduct: ${data.product || "General bulk enquiry"}\nCategory: ${data.category}\nQuantity: ${data.quantity} ${data.unit}\nName: ${data.name}\nPhone: ${data.phone}\nDelivery address: ${data.address}`;
     const subject = `Bulk enquiry - ${data.product || "General bulk enquiry"}`;
-    const mailto = `mailto:Prakashherbalsojat@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(plainMessage)}`;
+    const mailto = `mailto:prakashherbal443@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(plainMessage)}`;
     window.__lastMailto = mailto;
     window.location.href = mailto;
   };
